@@ -4085,6 +4085,11 @@ button:hover{
     border-left: none;
 }
 
+/* .form-autocomplete-suggestions li:hover {
+    background-color: #616161;
+    color: #ffffff;
+} */
+
 .form-autocomplete-suggestions li:hover {
     background-color: #616161;
     color: #ffffff;
