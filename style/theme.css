@@ -4078,3 +4078,14 @@ button:hover{
 .cb-search-container .input-group-append .bg-transparent:hover {
     color: #e5e5e5;
 }
+
+.modal-content .form-autocomplete-suggestions {
+    padding: 3px;
+    border-bottom: none;
+    border-left: none;
+}
+
+.form-autocomplete-suggestions li:hover {
+    background-color: #616161;
+    color: #ffffff;
+}
