@@ -4065,3 +4065,16 @@ button:hover{
     background-color: #b1040e;
     color: #fff;
 }
+
+.cb-search-container .input-group-append .btn {
+    height: 0;
+}
+
+.cb-search-container .input-group-append .bg-transparent {
+    background-color: transparent!important;
+    margin-left: 1px;
+}
+
+.cb-search-container .input-group-append .bg-transparent:hover {
+    color: #e5e5e5;
+}
