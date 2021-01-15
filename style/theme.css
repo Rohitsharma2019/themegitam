@@ -3778,6 +3778,8 @@ nav .popover-region .content-item-container:hover .view-more {
     background: var(--color_primary);
     border-color: var(--color_primary);
 }
+
+}
 .list-group-item.active span i.icon {
     color: var(--white);
 }
@@ -4064,6 +4066,7 @@ button:hover{
 #region-main .singlebutton .btn {
     background-color: #b1040e;
     color: #fff;
+    height: unset;
 }
 
 .cb-search-container .input-group-append .btn {
