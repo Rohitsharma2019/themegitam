@@ -23,21 +23,6 @@
 <div class="header-main">
     <div class="container">
     	<nav class="navbar navbar-light bg-faded">
-            <a href="{{{ config.wwwroot }}}/?redirect=0" class="navbar-brand {{# logourl }}has-logo{{/ logourl }}
-            {{^ logourl }}
-                hidden-sm-down
-            {{/ logourl }}
-                ">
-            {{# logourl }}
-                <span class="logo">
-                    <img src="{{logourl}}" alt="{{sitename}}">
-                </span>
-            {{/ logourl }}
-            {{^ logourl }}
-                <span class="site-name hidden-sm-down">{{{ sitename }}}</span>
-            {{/ logourl }}
-            </a>
-
         	<button class="{{{navbarclass}}}" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
 
         	<div class="collapse navbar-toggleable-md" id="navbarResponsive">

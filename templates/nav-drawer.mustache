@@ -1,0 +1,23 @@
+{{!
+    @template theme_boost/nav-drawer
+
+
+    Example context (json): {}
+}}
+<div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex {{^navdraweropen}}closed{{/navdraweropen}}" aria-hidden="{{#navdraweropen}}false{{/navdraweropen}}{{^navdraweropen}}true{{/navdraweropen}}" tabindex="-1">
+    <a href="{{{ config.wwwroot }}}/?redirect=0" class="navbar-brand {{# logourl }}has-logo{{/ logourl }}
+    {{^ logourl }}
+        hidden-sm-down
+    {{/ logourl }}
+        ">
+    {{# logourl }}
+        <span class="logo">
+            <img src="{{logourl}}" alt="{{sitename}}">
+        </span>
+    {{/ logourl }}
+    {{^ logourl }}
+        <span class="site-name hidden-sm-down">{{{ sitename }}}</span>
+    {{/ logourl }}
+    </a>
+    {{> theme_boost/flat_navigation }}
+</div>
