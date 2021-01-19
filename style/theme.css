@@ -4132,3 +4132,8 @@ body.drawer-open-left #region-main.has-blocks .dashboard-card-deck .dashboard-ca
 #defineroletable th.risk {
     text-align: center;
 }
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    height: unset;
+}
