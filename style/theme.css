@@ -1,5 +1,5 @@
 :root {
-    --color_primary: #88b77b;
+    --color_primary: #981f2b;
     --color_secondary: #f60;
     --white: #fff;
     --black: #000;
@@ -3775,8 +3775,8 @@ nav .popover-region .content-item-container:hover .view-more {
     padding: 1.25rem;
 }
 .list-group-item.active {
-    background: #70be52;
-    border-color: #70be52;
+    background: #f78769;
+    border-color: #f78769;
 }
 
 }
@@ -3981,19 +3981,15 @@ button.close:focus,
     max-width: 100%;
 }
 #header {
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: linear-gradient(to left,#981f2b,#e06544);
  }
  .btn-primary {
-    background-color: #438816;
+    background-color: #981f2b;
  }
  h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: Century Gothic,Arial,Helvetica,sans-serif;
-    color: #438816;
- }
- :root {
-    --color_primary: #438816;
-    --color_secondary: #000000;
+    color: #b44e27;
  }
  
  #footer .footer-bootom #footernavigation {
@@ -4013,7 +4009,7 @@ button.close:focus,
  #footer .footer-bootom {
     padding: 14px 0;
     text-align: center;
-    background: linear-gradient(to left, #61ba6d, #83c331);
+    background: linear-gradient(to left,#981f2b,#e06544);
  }
  #footer .footer-main p {
     color: #424242;
@@ -4041,8 +4037,8 @@ button.close:focus,
  }
  .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #438816;
-    border-color: #438816;
+    background-color: #981f2b;
+    border-color: #981f2b;
 }
 button:hover {
     color: #191616;
@@ -4065,7 +4061,7 @@ button:hover{
     left: 125px;
 }
 #region-main .singlebutton .btn {
-    background-color: #438816;
+    background-color: #981f2b;
     color: #fff;
     height: unset;
 }
@@ -4100,5 +4096,5 @@ button:hover{
 }
 
 a {
-    color: #c85d1f;
+    color: #191919;
 }
