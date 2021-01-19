@@ -1,5 +1,5 @@
 :root {
-    --color_primary: #981f2b;
+    --color_primary: #616875;
     --color_secondary: #f60;
     --white: #fff;
     --black: #000;
@@ -1551,7 +1551,7 @@ input#id_submitbutton.disabled {
     background: var(--color_gravel_approx);
 }
 input#id_submitbutton2 {
-    background: var(--color_secondary);
+    background-color: #df6443;
     border: 0;
     text-shadow: none;
 }
@@ -4037,8 +4037,8 @@ button.close:focus,
  }
  .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #981f2b;
-    border-color: #981f2b;
+    background-color: #616875;
+    border-color: #616875;
 }
 button:hover {
     color: #191616;
@@ -4051,6 +4051,7 @@ button:hover {
 }
 .btn-primary, input[type="submit"]{
     margin-left: 5px;
+    padding: 7px 16px 9px 16px;
 }
 button:hover{
     background: #d6d6d6;
@@ -4101,4 +4102,9 @@ a {
 
 #page #page-content .theme_screenshot img.img-polaroid {
     width: 100%;
+}
+
+.dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:focus-within {
+    outline: 0;
+    background-color: #ff7e5c;
 }
