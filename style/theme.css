@@ -1526,7 +1526,7 @@ input.form-submit.disabled {
     background: var(--color_gravel_approx);
 }
 input#id_submitbutton {
-    background: var(--color_secondary);
+    background: var( --color_primary);
     border: 0;
     text-shadow: none;
 }
