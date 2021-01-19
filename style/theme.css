@@ -4098,3 +4098,7 @@ button:hover{
 a {
     color: #191919;
 }
+
+#page #page-content .theme_screenshot img.img-polaroid {
+    width: 100%;
+}
