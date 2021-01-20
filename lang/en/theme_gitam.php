@@ -200,3 +200,6 @@ Moodle community|https://moodle.org
 -Moodle development|https://moodle.org/development
 Moodle.com|http://moodle.com/";
 $string['privacy:metadata'] = 'The gitam theme does not store any personal data about any user.';
+$string['message'] = 'If you’re already using the Moodle LMS and know the web address of your Moodle site, you can access your courses with our Moodle app on your mobile device. If you don’t know the web address of your Moodle site, please get in touch with your administrator';
+$string['downloadapp'] = 'Download the G-Learn App';
+
