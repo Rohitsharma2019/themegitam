@@ -49,20 +49,6 @@ echo $OUTPUT->doctype() ?>
     // Header file included.
     require_once(dirname(__FILE__) . '/includes/header.php');
 ?>
-<!--=========== Slideshow section start here ===========-->
-<div>
-<?php
-    $toggleslideshow = theme_gitam_get_setting('toggleslideshow');
-if ($toggleslideshow == 1) {
-    require_once(dirname(__FILE__) . '/includes/slideshow.php');
-} else {
-    echo "<br/><br/>";
-}
-?>
-</div>
-<!--=========== Slideshow section start here ===========-->
-<!--Slider-->
-
 <!-- Main Moodle Main Contents -->
 <div id="page" class="container">
 

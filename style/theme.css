@@ -93,7 +93,7 @@ button.close:focus {
     box-shadow: none;
 }
 .container {
-    max-width: 1270px;
+    max-width: 100%;
 }
 a {
     color: var(--color_secondary);
@@ -768,7 +768,7 @@ i.icon {
 }
 #footer .footer-main {
     background: var(--light_gray);
-    padding: 30px 0 54px;
+    padding: 0px 0 0px;
 }
 #footer .footer-main h2 {
     font-weight: bold;
@@ -820,7 +820,9 @@ i.icon {
     color: var(--color_primary);
 }
 #footer .social-media {
-    padding: 5px 0 0;
+    display: inline-flex;
+    float: right;
+    margin-top: -14px;
 }
 #footer .social-media h6 {
     font-size: 14px;
@@ -869,11 +871,7 @@ i.icon {
 #footer .social-media ul .smedia-04 a:hover {
     color: var(--color_cinnabar);
 }
-#footer .footer-bootom {
-    background: var(--dark_grey);
-    padding: 21px 0;
-    text-align: center;
-}
+
 #footer .footer-bootom p {
     color: #eaeaea;
     margin-bottom: 0;
@@ -969,11 +967,6 @@ i.icon {
     .carousel-control {
         display: none;
     }
-    #footer .footer-main {
-        padding-right: 20px;
-        padding-left: 20px;
-        text-align: center;
-    }
     #footer .footer-main .infoarea .footer-logo {
         margin-right: auto;
         margin-left: auto;
@@ -982,9 +975,8 @@ i.icon {
         width: 100%;
         height: auto;
     }
-    #footer .footer-bootom {
-        padding-right: 20px;
-        padding-left: 20px;
+    .footer-bootom {
+        display: flex;
     }
     #footer .social-media ul {
         width: 180px;
@@ -3999,17 +3991,8 @@ button.close:focus,
 
  #footer .footer-main {
     background: #e8e8e8;
-    padding: 30px 0 54px;
-    border-top: 5px solid #f15b47;
- }
-
- /* #footer .footer-bootom {
-    border-top: 1px solid #adadad;
- } */
- #footer .footer-bootom {
-    padding: 14px 0;
-    text-align: center;
-    background-color: #f15b47;
+    padding: 20px;
+    border-top: 4px solid #b1040e;
  }
  #footer .footer-main p {
     color: #424242;
@@ -4154,4 +4137,12 @@ th[colspan="1"] {
     background: #981f2b;
     border: 0;
     text-shadow: none;
+}
+.copyright_footer {
+    display: inline-flex;
+    color: #000;
+}
+#nav-drawer a .logo img {
+    width: 225px;
+    padding-bottom: 10px;
 }
