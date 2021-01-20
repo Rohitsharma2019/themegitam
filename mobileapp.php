@@ -17,28 +17,49 @@
 /**
  * Authentication key
  *
- * @package    mod_congrea
+ * @package    theme_gitam
  * @copyright  2020 vidyamantra.com
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 require_once('../../config.php');
-require_once($CFG->libdir.'/adminlib.php');
-//require_once('key_form.php');
-
-require_login();
-require_capability('moodle/site:config', context_system::instance());
 $PAGE->set_context(context_system::instance());
 $PAGE->set_url(new moodle_url('/gitam/mobileapp.php'));
 
 $PAGE->set_pagelayout('standard');
-$PAGE->set_heading(get_string('getfreeplan', 'congrea'));
+$PAGE->set_heading(get_string('downloadapp', 'gitam'));
 
-$url='https://play.google.com/store/apps/details?id=com.vidyamantra.cmoodleapp223';
-echo $url;
-
+//$url='https://play.google.com/store/apps/details?id=com.vidyamantra.cmoodleapp223';
+//echo $url;
+/*'<div class="container">
+<div class="row">
+    <div class="col-md-7 col-lg-7">
+        <div class="app_grid">
+            <h1 data-ccn="title" class="mt0">Download &amp; Enjoy</h1>
+            <p data-ccn="subtitle">Access your courses anywhere, anytime &amp; prepare with practice tests.</p>
+            <a data-ccn="app_store_btn_link" class="ccn-app-grid-btn" target="_self" href="https://play.google.com/store/apps/details?id=com.vidyamantra.cmoodleapp223"><button class="apple_btn btn-transparent">
+                <span class="icon">
+                    <span class="flaticon-apple"></span>
+                </span>
+                <span data-ccn="app_store_btn_title" class="title">App Store</span>
+                <span data-ccn="app_store_btn_subtitle" class="subtitle">Available on the</span>
+            </a>
+            <a class="ccn-app-grid-btn" target="_self" href="https://play.google.com/store/apps/details?id=com.vidyamantra.cmoodleapp223">
+            <button class="play_store_btn btn-transparent">
+                <span class="icon">
+                    <span class="flaticon-google-play"></span>
+                </span>
+                <span data-ccn="play_store_btn_title" class="title">Google Play</span>
+                <span data-ccn="play_store_btn_subtitle" class="subtitle">Get it on</span>
+            </button>
+            </a>
+        </div>
+    </div>
+</div>
+</div>'*/
+echo '<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/ijhofagnokdeoghaohcekchijfeffbjl">';
     echo $OUTPUT->header();
-    echo $OUTPUT->box(get_string('message', 'congrea'), "generalbox center clearfix");
+    echo $OUTPUT->box(get_string('message', 'gitam'), "generalbox center clearfix");
     
 
 

@@ -5,7 +5,7 @@
     Example context (json): {}
 }}
 <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex {{^navdraweropen}}closed{{/navdraweropen}}" aria-hidden="{{#navdraweropen}}false{{/navdraweropen}}{{^navdraweropen}}true{{/navdraweropen}}" tabindex="-1">
-    <a href="{{{ config.wwwroot }}}/?redirect=0" class="navbar-brand {{# logourl }}has-logo{{/ logourl }}
+    <div><a href="{{{ config.wwwroot }}}/?redirect=0" class="navbar-brand {{# logourl }}has-logo{{/ logourl }}
     {{^ logourl }}
         hidden-sm-down
     {{/ logourl }}
@@ -18,6 +18,6 @@
     {{^ logourl }}
         <span class="site-name hidden-sm-down">{{{ sitename }}}</span>
     {{/ logourl }}
-    </a>
+    </a></div>
     {{> theme_boost/flat_navigation }}
 </div>

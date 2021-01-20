@@ -770,8 +770,13 @@ i.icon {
     color: var(--color_secondary);
 }
 #footer .footer-main {
-    background: linear-gradient(to left,#981f2b,#e06544);
+    background: #f15b47;
     padding: 0px 0 0px;
+}
+#page-login-index .campusinfo {
+    background: #e5e5e5;
+    padding: 20px;
+    border-top: 2px solid #f15b47;
 }
 #footer .footer-main h2 {
     font-weight: bold;
@@ -779,8 +784,8 @@ i.icon {
     margin: 0 0 10px;
 }
 #footer .footer-main p {
-    color: var(--white);
-    line-height: 22px;
+    color: #ffffff!important;
+    font-weight: 400;
 }
 #footer .footer-main .infoarea {
     padding: 24px 0 0;
@@ -821,6 +826,10 @@ i.icon {
 }
 #footer .footer-main .contact-info p a {
     color: var(--color_primary);
+}
+#page-login-index #footer .social-media {
+    display: inline-flex;
+    float: right;
 }
 #footer .social-media {
     display: inline-flex;
@@ -3994,13 +4003,7 @@ button.close:focus,
  }
 
  #footer .footer-main {
-    background: #e8e8e8;
     padding: 20px;
-    border-top: 4px solid #b1040e;
- }
- #footer .footer-main p {
-    color: #424242;
-    line-height: 22px;
  }
  #footer .footer-main h2 {
     font-weight: 700;
@@ -4100,9 +4103,15 @@ a {
     color: #000;
 }
 #nav-drawer a .logo img {
-    width: 225px;
+    width: 230px;
     padding-bottom: 10px;
 }
 #page-login-index h2.card-header {
     display:none
+}
+.copyright_footer p, .copyright_footer a {
+    margin-right: 20px;
+}
+.copyright_footer a, .copyright_footer div.tool_dataprivacy a {
+    color: var(--white)!important;
 }
