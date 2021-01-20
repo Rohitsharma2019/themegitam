@@ -763,11 +763,14 @@ i.icon {
 .empty-footer {
     display: none;
 }
+#footer {
+    background: var(--light_gray);
+}
 #footer a {
     color: var(--color_secondary);
 }
 #footer .footer-main {
-    background: var(--light_gray);
+    background: linear-gradient(to left,#981f2b,#e06544);
     padding: 0px 0 0px;
 }
 #footer .footer-main h2 {
@@ -840,8 +843,8 @@ i.icon {
 #footer .social-media ul li + li {
     margin: 0 0 0 12px;
 }
-#footer .social-media ul li a {
-    font-size: 42px;
+#footer .social-media ul li i.fa {
+    font-size: 20px;
     color: var(--white);
 }
 #footer .social-media ul li a:hover {
@@ -977,6 +980,7 @@ i.icon {
     }
     .footer-bootom {
         display: flex;
+        border-bottom: 1px solid var(--color_mercury_approx);
     }
     #footer .social-media ul {
         width: 180px;
@@ -4145,4 +4149,7 @@ th[colspan="1"] {
 #nav-drawer a .logo img {
     width: 225px;
     padding-bottom: 10px;
+}
+#page-login-index h2.card-header {
+    display:none
 }
