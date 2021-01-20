@@ -4137,3 +4137,21 @@ body.drawer-open-left #region-main.has-blocks .dashboard-card-deck .dashboard-ca
     cursor: pointer;
     height: unset;
 }
+
+.path-admin-roles .capabilitysearchui {
+    margin-bottom: 1rem;
+}
+
+th[colspan="1"] {
+    display: flex;
+}
+
+#page-admin-roles-allow th.header.c0 {
+    display: none;
+}
+
+.path-admin .buttons input[type="submit"] {
+    background: #981f2b;
+    border: 0;
+    text-shadow: none;
+}
