@@ -172,7 +172,7 @@ a:focus {
 }
 i.icon {
     font-size: 16px;
-    color: var(--color_primary);
+    color: #464646;
 }
 #header {
     border-bottom: 1px solid var(--color_mercury_approx);
@@ -3962,7 +3962,7 @@ button.close:focus,
     margin-right: 0;
 }
 #region-main .block-myoverview .dashboard-card-deck .dashboard-card .card-body {
-    padding: 10px;
+    padding: 10px !important;
 }
 #region-main .block-myoverview .progress {
     border-radius: 5px;
@@ -3981,7 +3981,7 @@ button.close:focus,
     max-width: 100%;
 }
 #header {
-    background: linear-gradient(to left,#981f2b,#e06544);
+    background-color: #f15b47;
  }
  .btn-primary {
     background-color: #981f2b;
@@ -4000,7 +4000,7 @@ button.close:focus,
  #footer .footer-main {
     background: #e8e8e8;
     padding: 30px 0 54px;
-    border-top: 5px solid #b1040e;
+    border-top: 5px solid #f15b47;
  }
 
  /* #footer .footer-bootom {
@@ -4009,7 +4009,7 @@ button.close:focus,
  #footer .footer-bootom {
     padding: 14px 0;
     text-align: center;
-    background: linear-gradient(to left,#981f2b,#e06544);
+    background-color: #f15b47;
  }
  #footer .footer-main p {
     color: #424242;
@@ -4107,4 +4107,33 @@ a {
 .dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:focus-within {
     outline: 0;
     background-color: #ff7e5c;
+}
+
+#region-main .block-myoverview .dashboard-card-deck .dashboard-card .card-body a, #region-main .text-truncate a {
+    color: black;
+}
+
+body.drawer-open-left #region-main.has-blocks .dashboard-card-deck .dashboard-card:hover {
+    /* box-shadow: 0 0 30px 0 rgba(32,32,32,.15) !important; */
+    box-shadow: 0px 0px 7px 2px #dcdcdc;
+    transition: all .3s ease;
+}
+
+#region-main .block_myoverview .content, #region-main .card-text.content{
+    min-height: 19.35rem;
+    background: unset;
+}
+
+#defineroletable .fa-question-circle:before {
+    content: "";
+    color: #fff;
+}
+
+#defineroletable th.risk {
+    text-align: center;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    height: unset;
 }
