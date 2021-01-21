@@ -52,6 +52,8 @@ $semail = get_string('email', 'theme_gitam');
 // Footer Content.
 $logourl = get_logo_url();
 $footlogo = theme_gitam_get_setting('footlogo');
+$iosappurl = theme_gitam_get_setting('iosappurl');
+$androidappurl = 'https://play.google.com/store/apps/details?id=com.vidyamantra.cmoodleapp223';
 $footlogo = (!$footlogo) ? 0 : 1;
 $footnote = theme_gitam_get_setting('footnote', 'format_html');
 $fburl = theme_gitam_get_setting('fburl');
@@ -71,7 +73,7 @@ $phone = get_string('phone', 'theme_gitam');
 $email = get_string('email', 'theme_gitam');
 $sfollowus = get_string('followus', 'theme_gitam');
 
-$url = ($fburl != '' || $pinurl != '' || $twurl != '' || $gpurl != '') ? 1 : 0;
+$url = ($iosappurl != '' || $androidappurl != '' || $fburl != '' || $pinurl != '' || $twurl != '' || $gpurl != '') ? 1 : 0;
 $block3 = ($address != '' || $phoneno != '' || $emailid != '' || $url != 0) ? 1 : 0;
 
 $footerblock1 = ($footlogo != 0 || $footnote != '' || $infolink != '' || $url != 0 || $block3 != 0) ? 1 : 0;
@@ -112,6 +114,8 @@ $templatecontext = [
     'hasregionmainsettingsmenu' => !empty($regionmainsettingsmenu),
 
     "logourl" => $logourl,
+    "iosappurl" => $iosappurl,
+    "androidappurl" => 'https://play.google.com/store/apps/details?id=com.vidyamantra.cmoodleapp223',
     "footlogo" => $footlogo,
     "footnote" => $footnote,
     "fburl" => $fburl,
