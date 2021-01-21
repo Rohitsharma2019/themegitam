@@ -555,7 +555,7 @@ i.icon {
 }
 .dir-rtl .course_category_tree.frontpage-category-names .category > .info > .categoryname {
     padding: 14px 20px 14px 6px;
-    background-image: url([[pix:theme|svg_grey/t/collapsed_empty_rtl]]);
+    background-image: url([[pix:theme|theme_t/collapsed_empty_rtl]]);
 }
 .dir-rtl .course_category_tree.frontpage-category-names .category.with_children.collapsed > .info > .categoryname {
     background-image: url([[pix:theme|svg_grey/t/collapsed_rtl]]);
@@ -4138,10 +4138,6 @@ th[colspan="1"] {
     display: flex;
 }
 
-#page-admin-roles-allow th.header.c0 {
-    display: none;
-}
-
 .path-admin .buttons input[type="submit"] {
     background: #981f2b;
     border: 0;
@@ -4181,4 +4177,11 @@ th[colspan="1"] {
 }
 i.fa.fa-apple, i.fa.fa-play, i.fa.fa-support {
     padding-right: 10px;
+}
+#page-login-index #maincontent {
+    display:block;
+    background-image: url([[pix:theme|home/logo]]);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 125px;
 }
