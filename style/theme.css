@@ -31,6 +31,7 @@
     --font_0: robotobold;
     --font_1: robotoregular;
     --font_2: fontawesome;
+    --font_3: Muli;
 }
 
 h1,
@@ -40,7 +41,7 @@ h4,
 h5,
 h6 {
     font-weight: normal;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif !important;
     color: var(--color_secondary);
 }
 .moodle-actionmenu[data-enhanced].show .menu a:hover,
@@ -52,7 +53,7 @@ h6 {
     outline: 0;
 }
 body {
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-family: Noto Sans, Century Gothic, Arial, Helvetica, sans-serif;
     color: var(--color_storm_dust_approx);
     padding-top: 0;
     background: var(--white);
@@ -774,9 +775,9 @@ i.icon {
     padding: 0px 0 0px;
 }
 #page-login-index .campusinfo {
-    background: #e5e5e5;
+    background: #faf9f9;
     padding: 20px;
-    border-top: 2px solid #f15b47;
+    border-top: 2px solid #f1d147;
 }
 #footer .footer-main h2 {
     font-weight: bold;
@@ -830,11 +831,12 @@ i.icon {
 #page-login-index #footer .social-media {
     display: inline-flex;
     float: right;
+    margin-top: 0px;
 }
 #footer .social-media {
     display: inline-flex;
     float: right;
-    margin-top: -14px;
+    margin-top: -15px;
 }
 #footer .social-media h6 {
     font-size: 14px;
@@ -4114,4 +4116,22 @@ a {
 }
 .copyright_footer a, .copyright_footer div.tool_dataprivacy a {
     color: var(--white)!important;
+}
+.appsdownload {
+    display:none;
+}
+#page-login-index .appsdownload {
+    display:block;
+}
+#page-login-index ul.appsdownload {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#page-login-index ul.appsdownload li {
+    float: left;
+}
+i.fa.fa-apple, i.fa.fa-play {
+    padding-right: 10px;
 }

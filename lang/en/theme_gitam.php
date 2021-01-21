@@ -33,7 +33,7 @@ $string['configtitle'] = 'gitam';
 $string['connectus'] = 'Connect with us';
 $string['contact'] = 'Contact';
 $string['copyright_footer'] = 'Copyright';
-$string['copyright_default'] = 'Copyright &copy; 2017 - Developed by <a href="http://lmsace.com">LMSACE.com</a>. Powered by <a href="https://moodle.org">Moodle</a>';
+$string['copyright_default'] = 'Copyright &copy; 2017 - Developed by <a href="http://xyz.com">xyz.com</a>. Powered by <a href="https://moodle.org">Moodle</a>';
 $string['customcss'] = 'Custom CSS';
 $string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
 $string['defaultaddress'] = '308 Negra Narrow Lane, Albeeze, New york, 87104';
@@ -54,9 +54,9 @@ $string['footnote'] = 'Footnote';
 $string['footnotedefault'] = '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.<br><a href="#">Read More &raquo;</a></p>';
 $string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throughout your Moodle site.';
 $string['frontpageheading'] = 'Front page';
-$string['gpurl'] = 'Google+';
-$string['gpurl_default'] = 'https://www.google.com/+yourgoogleplusid';
-$string['gpurldesc'] = 'The Google+ url of your organisation.';
+$string['gpurl'] = 'Instagram';
+$string['gpurl_default'] = 'https://www.instagram.com';
+$string['gpurldesc'] = 'The Instagram url of your organisation.';
 $string['headerheading'] = 'General';
 $string['homebanner'] = 'Home Page Banner';
 $string['homebanner_slogan'] = 'We have the largest collection of courses';
@@ -110,9 +110,9 @@ $string['numberofslides_desc'] = 'Number of slides on the slider.';
 $string['numberoftmonials'] = 'Number of Testimonials';
 $string['numberoftmonials_desc'] = 'Number of Testimonials on the Home Page.';
 $string['phoneno'] = 'Phone No';
-$string['pinurl'] = 'Pinterest';
-$string['pinurl_default'] = 'https://in.pinterest.com/yourpinterestname/';
-$string['pinurldesc'] = 'The Pinterest url of your organisation.';
+$string['pinurl'] = 'Youtube';
+$string['pinurl_default'] = 'https://www.youtube.com/youryoutubename/';
+$string['pinurldesc'] = 'The Youtube url of your organisation.';
 $string['pluginname'] = 'gitam';
 $string['readmore'] = 'Read More';
 $string['region-side-post'] = 'Right';
@@ -174,9 +174,9 @@ $string['slidedesctext'] = 'Enter the description of the slide.';
 $string['slidedescdefault'] = '<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>';
 $string['toggleslideshow'] = 'Slide show display';
 $string['toggleslideshowdesc'] = 'Choose if you wish to hide or show the slide show.';
-$string['twurl'] = 'Twitter';
-$string['twurl_default'] = 'https://twitter.com/yourtwittername';
-$string['twurldesc'] = 'The Twitter url of your organisation.';
+$string['twurl'] = 'Linkedin';
+$string['twurl_default'] = 'https://linkedin.com/yourlinkedinname';
+$string['twurldesc'] = 'The Linkedin url of your organisation.';
 
 
 $string['contact_us'] = "Contact us";
@@ -199,7 +199,10 @@ Moodle community|https://moodle.org
 -###
 -Moodle development|https://moodle.org/development
 Moodle.com|http://moodle.com/";
-$string['privacy:metadata'] = 'The gitam theme does not store any personal data about any user.';
-$string['message'] = 'If you’re already using the Moodle LMS and know the web address of your Moodle site, you can access your courses with our Moodle app on your mobile device. If you don’t know the web address of your Moodle site, please get in touch with your administrator';
-$string['downloadapp'] = 'Download the G-Learn App';
 
+$string['iosappurl'] = 'Your iOS App Link';
+$string['iosappurldesc'] = 'Download the G-Learn iOS App';
+$string['iosappurl_default'] = '';
+$string['androidappurl'] = 'Your Android App Link';
+$string['androidappurldesc'] = 'Download the G-Learn Android App';
+$string['androidappurl_default'] = '';
