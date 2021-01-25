@@ -771,6 +771,7 @@ i.icon {
     color: var(--color_secondary);
 }
 #footer .footer-main {
+<<<<<<< HEAD
     background: #f15b47;
     padding: 0px 0 0px;
 }
@@ -778,6 +779,11 @@ i.icon {
     background: #faf9f9;
     padding: 20px;
     border-top: 2px solid #f1d147;
+=======
+    background: #b1040e;
+    padding: 12px;
+    border-top: 5px solid #f15b47;
+>>>>>>> 7774c899b617fd4d222a01417c8686f902124eca
 }
 #footer .footer-main h2 {
     font-weight: bold;
@@ -981,6 +987,10 @@ i.icon {
     .carousel-control {
         display: none;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7774c899b617fd4d222a01417c8686f902124eca
     #footer .footer-main .infoarea .footer-logo {
         margin-right: auto;
         margin-left: auto;
@@ -3988,8 +3998,9 @@ button.close:focus,
     max-width: 100%;
 }
 #header {
-    background-color: #f15b47;
+    background-color: #b1040e;
  }
+ 
  .btn-primary {
     background-color: #981f2b;
  }
@@ -4005,7 +4016,26 @@ button.close:focus,
  }
 
  #footer .footer-main {
+<<<<<<< HEAD
     padding: 20px;
+=======
+    background: #b1040e;
+    padding: 0px 0 0px;
+    border-top: 5px solid #f15b47;
+ }
+
+ /* #footer .footer-bootom {
+    border-top: 1px solid #adadad;
+ } */
+ #footer .footer-bootom {
+    padding: 14px 0;
+    text-align: center;
+    background-color: #f15b47;
+ }
+ #footer .footer-main p {
+    color: #424242;
+    line-height: 22px;
+>>>>>>> 7774c899b617fd4d222a01417c8686f902124eca
  }
  #footer .footer-main h2 {
     font-weight: 700;
