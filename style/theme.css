@@ -3772,11 +3772,10 @@ nav .popover-region .content-item-container:hover .view-more {
     padding: 1.25rem;
 }
 .list-group-item.active {
-    background: #f78769;
-    border-color: #f78769;
+    background: #b1040e;
+    border-color: #b1040e;
 }
 
-}
 .list-group-item.active span i.icon {
     color: var(--white);
 }
@@ -3980,7 +3979,7 @@ button.close:focus,
 #header {
     background-color: #b1040e;
  }
- 
+
  .btn-primary {
     background-color: #981f2b;
  }
@@ -4152,4 +4151,8 @@ th[colspan="1"] {
     background: #981f2b;
     border: 0;
     text-shadow: none;
+}
+
+#nav-drawer .list-group .font-weight-bold {
+    font-weight: 400 !important;
 }
