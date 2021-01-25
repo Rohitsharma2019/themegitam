@@ -767,8 +767,9 @@ i.icon {
     color: var(--color_secondary);
 }
 #footer .footer-main {
-    background: var(--light_gray);
-    padding: 30px 0 54px;
+    background: #b1040e;
+    padding: 12px;
+    border-top: 5px solid #f15b47;
 }
 #footer .footer-main h2 {
     font-weight: bold;
@@ -969,11 +970,7 @@ i.icon {
     .carousel-control {
         display: none;
     }
-    #footer .footer-main {
-        padding-right: 20px;
-        padding-left: 20px;
-        text-align: center;
-    }
+
     #footer .footer-main .infoarea .footer-logo {
         margin-right: auto;
         margin-left: auto;
@@ -3981,8 +3978,9 @@ button.close:focus,
     max-width: 100%;
 }
 #header {
-    background-color: #f15b47;
+    background-color: #b1040e;
  }
+ 
  .btn-primary {
     background-color: #981f2b;
  }
@@ -3999,7 +3997,7 @@ button.close:focus,
 
  #footer .footer-main {
     background: #b1040e;
-    padding: 30px 0 54px;
+    padding: 0px 0 0px;
     border-top: 5px solid #f15b47;
  }
 
