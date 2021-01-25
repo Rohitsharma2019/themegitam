@@ -3792,11 +3792,10 @@ nav .popover-region .content-item-container:hover .view-more {
     padding: 1.25rem;
 }
 .list-group-item.active {
-    background: #f78769;
-    border-color: #f78769;
+    background: #b1040e;
+    border-color: #b1040e;
 }
 
-}
 .list-group-item.active span i.icon {
     color: var(--white);
 }
@@ -4000,14 +3999,14 @@ button.close:focus,
 #header {
     background-color: #b1040e;
  }
- 
+
  .btn-primary {
-    background-color: #981f2b;
+    background-color: #b1040e;
  }
  h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: Century Gothic,Arial,Helvetica,sans-serif;
-    color: #b44e27;
+    color: #b1040e;
  }
  
  #footer .footer-bootom #footernavigation {
@@ -4084,7 +4083,7 @@ button:hover{
     left: 125px;
 }
 #region-main .singlebutton .btn {
-    background-color: #981f2b;
+    background-color: #b1040e;
     color: #fff;
     height: unset;
 }
@@ -4128,7 +4127,7 @@ a {
 
 .dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:focus-within {
     outline: 0;
-    background-color: #ff7e5c;
+    background-color:  #b1040ecc;
 }
 
 #region-main .block-myoverview .dashboard-card-deck .dashboard-card .card-body a, #region-main .text-truncate a {
@@ -4214,4 +4213,8 @@ i.fa.fa-apple, i.fa.fa-google-play, i.fa.fa-support {
     background-repeat: no-repeat;
     background-position: center;
     height: 125px;
+}
+
+#nav-drawer .list-group .font-weight-bold {
+    font-weight: 400 !important;
 }
