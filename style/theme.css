@@ -175,6 +175,10 @@ i.icon {
     font-size: 16px;
     color: #464646;
 }
+.helplink i.icon {
+    font-size: 16px;
+    color: #fff;
+}
 #header {
     border-bottom: 1px solid var(--color_mercury_approx);
     background: var(--color_primary);
@@ -771,19 +775,15 @@ i.icon {
     color: var(--color_secondary);
 }
 #footer .footer-main {
-<<<<<<< HEAD
-    background: #f15b47;
     padding: 0px 0 0px;
 }
 #page-login-index .campusinfo {
     background: #faf9f9;
     padding: 20px;
     border-top: 2px solid #f1d147;
-=======
-    background: #b1040e;
-    padding: 12px;
-    border-top: 5px solid #f15b47;
->>>>>>> 7774c899b617fd4d222a01417c8686f902124eca
+}
+#page-login-index .campusinfo .row {
+    padding-left: 32px
 }
 #footer .footer-main h2 {
     font-weight: bold;
@@ -864,35 +864,13 @@ i.icon {
     font-size: 20px;
     color: var(--white);
 }
-#footer .social-media ul li a:hover {
+#footer .social-media ul li  i.fa:hover {
     text-decoration: none;
-}
-#footer .social-media ul li a:focus {
-    text-decoration: none;
-}
-#footer .social-media ul .smedia-01 a:hover {
-    color: var(--light_blue);
-}
-#footer .social-media ul .smedia-01 a:focus {
-    color: var(--light_blue);
-}
-#footer .social-media ul .smedia-02 a:hover {
-    color: var(--dark_red);
-}
-#footer .social-media ul .smedia-02 a:focus {
-    color: var(--dark_red);
-}
-#footer .social-media ul .smedia-03 a:hover {
-    color: var(--color_cerulean);
-}
-#footer .social-media ul .smedia-04 a:focus {
-    color: var(--cinnabar);
-}
-#footer .social-media ul .smedia-04 a:hover {
-    color: var(--color_cinnabar);
+    color:black
 }
 
-#footer .footer-bootom p {
+
+#footer .footer-bottom p {
     color: #eaeaea;
     margin-bottom: 0;
 }
@@ -987,10 +965,6 @@ i.icon {
     .carousel-control {
         display: none;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 7774c899b617fd4d222a01417c8686f902124eca
     #footer .footer-main .infoarea .footer-logo {
         margin-right: auto;
         margin-left: auto;
@@ -999,7 +973,7 @@ i.icon {
         width: 100%;
         height: auto;
     }
-    .footer-bootom {
+    .footer-bottom {
         display: flex;
         border-bottom: 1px solid var(--color_mercury_approx);
     }
@@ -4009,32 +3983,22 @@ button.close:focus,
     color: #b1040e;
  }
  
- #footer .footer-bootom #footernavigation {
+ #footer .footer-bottom #footernavigation {
     padding-top: 10px;
     display: none;
  }
 
  #footer .footer-main {
-<<<<<<< HEAD
-    padding: 20px;
-=======
-    background: #b1040e;
     padding: 0px 0 0px;
-    border-top: 5px solid #f15b47;
  }
 
- /* #footer .footer-bootom {
-    border-top: 1px solid #adadad;
- } */
- #footer .footer-bootom {
-    padding: 14px 0;
-    text-align: center;
-    background-color: #f15b47;
+ #footer .footer-bottom {
+    padding: 12px 30px;
+    background-color: #b1040e;
  }
  #footer .footer-main p {
     color: #424242;
     line-height: 22px;
->>>>>>> 7774c899b617fd4d222a01417c8686f902124eca
  }
  #footer .footer-main h2 {
     font-weight: 700;
@@ -4195,16 +4159,16 @@ th[colspan="1"] {
 #page-login-index .appsdownload {
     display:block;
 }
-#page-login-index ul.appsdownload {
+ul.appsdownload {
     list-style: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
-#page-login-index ul.appsdownload li {
+ul.appsdownload li {
     float: left;
 }
-i.fa.fa-apple, i.fa.fa-google-play, i.fa.fa-support {
+i.fa.fa-play {
     padding-right: 10px;
 }
 #page-login-index #maincontent {

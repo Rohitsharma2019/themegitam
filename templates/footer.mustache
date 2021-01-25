@@ -20,13 +20,14 @@
 
 <footer id="footer" class="text-light">
     <div class="footer-main">
-        <div class="footer-bootom">
+        <div class="footer-bottom">
             <div class="copyright_footer">
             <p>{{# copyright_footer}}{{{copyright_footer}}}{{/ copyright_footer}}</p>
-            <ul class="appsdownload">
-                <li class="smedia-01"><a href="{{iosappurl}}" target="_blank"><i class="fa fa-apple"></i>Download iOS App</a></li>
-                <li class="smedia-01"><a href="{{androidappurl}}" target="_blank"><i class="fa fa-google-play"></i>Download Android App</a></li>
+            {{# output.page_doc_link }}
                 <p class="helplink">{{{ output.page_doc_link }}}</p>
+            {{/ output.page_doc_link }}
+            <ul class="appsdownload">
+                <li><a href="{{androidappurl}}" target="_blank"><i class="fa fa-play"></i>Get Android App</a></li>
             </ul>
             </div>
             <div class="social-media">
