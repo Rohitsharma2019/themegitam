@@ -3981,12 +3981,12 @@ button.close:focus,
  }
 
  .btn-primary {
-    background-color: #981f2b;
+    background-color: #b1040e;
  }
  h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: Century Gothic,Arial,Helvetica,sans-serif;
-    color: #b44e27;
+    color: #b1040e;
  }
  
  #footer .footer-bootom #footernavigation {
@@ -4059,7 +4059,7 @@ button:hover{
     left: 125px;
 }
 #region-main .singlebutton .btn {
-    background-color: #981f2b;
+    background-color: #b1040e;
     color: #fff;
     height: unset;
 }
@@ -4103,7 +4103,7 @@ a {
 
 .dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:focus-within {
     outline: 0;
-    background-color: #ff7e5c;
+    background-color:  #b1040ecc;
 }
 
 #region-main .block-myoverview .dashboard-card-deck .dashboard-card .card-body a, #region-main .text-truncate a {
