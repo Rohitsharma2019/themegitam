@@ -25,8 +25,8 @@
             <p>{{# copyright_footer}}{{{copyright_footer}}}{{/ copyright_footer}}</p>
             <ul class="appsdownload">
                 <li class="smedia-01"><a href="{{iosappurl}}" target="_blank"><i class="fa fa-apple"></i>Download iOS App</a></li>
-                <li class="smedia-01"><a href="{{androidappurl}}" target="_blank"><i class="fa fa-play"></i>Download Android App</a></li>
-                <li class="smedia-01"><a href="mailto:{{supporturl}}" target="_blank"><i class="fa fa-support"></i>Support</a></li>
+                <li class="smedia-01"><a href="{{androidappurl}}" target="_blank"><i class="fa fa-google-play"></i>Download Android App</a></li>
+                <p class="helplink">{{{ output.page_doc_link }}}</p>
             </ul>
             </div>
             <div class="social-media">
@@ -50,9 +50,6 @@
         </div>
     </div>
 </footer>
-{{# output.page_doc_link }}
-    <p class="helplink">{{{ output.page_doc_link }}}</p>
-{{/ output.page_doc_link }}
 <nav class="nav navbar-nav d-md-none" aria-label="{{#str}}custommenu, admin{{/str}}">
     {{# output.custom_menu_flat }}
     <ul class="list-unstyled pt-3">
