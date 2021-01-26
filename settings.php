@@ -92,13 +92,6 @@ if (is_siteadmin()) {
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $temp->add($setting);
 
-    $name = 'theme_gitam/supporturl';
-    $title = get_string('supporturl', 'theme_gitam');
-    $description = get_string('supporturldesc', 'theme_gitam');
-    $default = get_string('supporturl_default', 'theme_gitam');
-    $setting = new admin_setting_configtext($name, $title, $description, $default);
-    $temp->add($setting);
-
     /* Facebook, Pinterest, Twitter, Google+ Settings */
     $name = 'theme_gitam/fburl';
     $title = get_string('fburl', 'theme_gitam');
