@@ -41,6 +41,7 @@ $blockshtml = $OUTPUT->blocks('side-pre');
 $hasblocks = strpos($blockshtml, 'data-block=') !== false;
 $regionmainsettingsmenu = $OUTPUT->region_main_settings_menu();
 
+
 $custommenu = $OUTPUT->custom_menu();
 
 if ($custommenu == "") {
@@ -74,7 +75,6 @@ $email = get_string('email', 'theme_gitam');
 $sfollowus = get_string('followus', 'theme_gitam');
 $url = ($fburl != '' || $pinurl != '' || $twurl != '' || $gpurl != '') ? 1 : 0;
 $infolink = theme_gitam_infolink();
-
 
 $templatecontext = [
     'sitename' => format_string($SITE->shortname, true, ['context' => context_course::instance(SITEID), "escape" => false]),
@@ -110,8 +110,5 @@ $templatecontext = [
     "infolink" => $infolink,
     "navbarclass" => $navbarclass,
 ];
-
-
 $templatecontext['flatnavigation'] = $PAGE->flatnav;
 $flatnavbar = $OUTPUT->render_from_template('theme_boost/nav-drawer', $templatecontext);
-echo $OUTPUT->render_from_template('theme_gitam/header', $templatecontext);

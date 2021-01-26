@@ -232,9 +232,6 @@ i.icon {
     color: var(--white);
     display: inline-block;
 }
-#header .address-head {
-    margin-top: 5px;
-}
 #header .address-head.empty-address {
     display: none;
 }
@@ -837,7 +834,6 @@ i.icon {
 #page-login-index #footer .social-media {
     display: inline-flex;
     float: right;
-    margin-top: 0px;
 }
 #footer .social-media {
     display: inline-flex;
