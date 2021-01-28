@@ -4212,6 +4212,18 @@ i.fa.fa-play {
         margin: 0;
         overflow: hidden;
     }
+
+    #page-login-index #maincontent {
+        display:block;
+        background-image: url([[pix:theme|home/logologin]]);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 125px;
+    }
+
+    #page-login-index .card {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width: 721px) and (max-width: 800px){
