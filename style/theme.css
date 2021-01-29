@@ -4182,3 +4182,77 @@ i.fa.fa-play {
 #page-my-index #header .nav.navbar-nav.address-head span, #page-site-index #header .nav.navbar-nav.address-head span {
     margin-top: 4px;
 }
+
+@media (min-width: 320px) and (max-width: 720px) {
+    #footer .footer-bottom {
+        padding: 12px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyright_footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    #footer .footer-bottom p, #footer .footer-bottom ul {
+        margin-bottom: 10px;
+        padding: 2px 0px 2px 0px;
+    }
+
+    #footer .social-media {
+        display: unset;
+        float: none;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+
+    #footer .social-media ul {
+        margin: 0;
+        overflow: hidden;
+    }
+
+    #page-login-index #maincontent {
+        display:block;
+        background-image: url([[pix:theme|home/logologin]]);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 125px;
+    }
+
+    #page-login-index .card {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 800px){
+    .drawer-open-left #footer .footer-bottom {
+        padding: 12px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .drawer-open-left .copyright_footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    
+    .drawer-open-left #footer .footer-bottom p, .drawer-open-left #footer .footer-bottom ul {
+        margin-bottom: 10px;
+        padding: 2px 0px 2px 0px;
+    }
+    
+    .drawer-open-left #footer .social-media {
+        display: unset;
+        float: none;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+    
+    .drawer-open-left #footer .social-media ul {
+        margin: 0;
+        overflow: hidden;
+    }
+}
