@@ -3762,8 +3762,8 @@ nav .popover-region .content-item-container:hover .view-more {
     padding: 1.25rem;
 }
 .list-group-item.active {
-    background: #b1040e;
-    border-color: #b1040e;
+    background: #f15b47;
+    border-color: #f15b47;
 }
 
 .list-group-item.active span i.icon {
@@ -3967,7 +3967,7 @@ button.close:focus,
     max-width: 100%;
 }
 #header {
-    background-color: #b1040e;
+    background-color: #f15b47;
  }
 
  .btn-primary {
@@ -3990,7 +3990,7 @@ button.close:focus,
 
  #footer .footer-bottom {
     padding: 12px 30px;
-    background-color: #b1040e;
+    background-color: #f15b47;
  }
  #footer .footer-main p {
     color: #424242;
