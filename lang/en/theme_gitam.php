@@ -206,6 +206,3 @@ $string['iosappurl_default'] = '';
 $string['androidappurl'] = 'Your Android App Link';
 $string['androidappurldesc'] = 'Download the G-Learn Android App';
 $string['androidappurl_default'] = '';
-$string['supporturl'] = 'Support URL';
-$string['supporturldesc'] = 'Support URL here';
-$string['supporturl_default'] = '';
