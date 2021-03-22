@@ -3454,12 +3454,12 @@ tr.discussion .btn i.icon {
 #course-category-listings #category-listing .course-count i.icon {
     margin-left: 5px;
 }
-.path-grade-report-user #graded_users_selector {
+/* .path-grade-report-user #graded_users_selector {
     float: none;
 }
 .path-grade-report-user .view_users_selector {
     float: none;
-}
+} */
 #page-mod-quiz-edit .add-menu-outer {
     bottom: 0;
 }
@@ -4125,10 +4125,6 @@ body.drawer-open-left #region-main.has-blocks .dashboard-card-deck .dashboard-ca
 
 .path-admin-roles .capabilitysearchui {
     margin-bottom: 1rem;
-}
-
-th[colspan="1"] {
-    display: flex;
 }
 
 .path-admin .buttons input[type="submit"] {
