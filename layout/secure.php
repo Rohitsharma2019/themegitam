@@ -41,21 +41,7 @@ echo $OUTPUT->doctype() ?>
 
 <header role="banner" class="navbar navbar-fixed-top moodle-has-zindex">
     <nav role="navigation" class="navbar-inner">
-        <div class="container">
-            <a class="brand" href="<?php echo $CFG->wwwroot;?>"><?php echo
-                format_string($SITE->shortname, true, array('context' => context_course::instance(SITEID)));
-                ?></a>
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <div class="nav-collapse collapse">
-                <ul class="nav pull-right">
-                    <li><?php echo $OUTPUT->page_heading_menu(); ?></li>
-                </ul>
-            </div>
-        </div>
+
     </nav>
 </header>
 
@@ -77,7 +63,7 @@ echo $OUTPUT->doctype() ?>
         <?php echo $OUTPUT->blocks('side-post', 'col-md-3'); ?>
     </div>
 
-    <?php echo $OUTPUT->standard_end_of_body_html() ?>
+    <?php echo $OUTPUT->render_from_template('theme_boost/secure', $templatecontext); ?>
 
 </div>
 </body>

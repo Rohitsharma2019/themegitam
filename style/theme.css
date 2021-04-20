@@ -2845,12 +2845,10 @@ table#permissions tbody tr:hover > th {
 }
 .generaltable th {
     line-height: 21px;
-    padding: 12px;
     border-top: 0;
 }
 .generaltable td {
     line-height: 21px;
-    padding: 12px;
     border-top: 0;
 }
 .generaltable tbody > tr:nth-child(2n + 1) > td {
@@ -4251,4 +4249,7 @@ i.fa.fa-play {
 }
 fieldset#id_searchbyemail {
     display: none;
+}
+#page-mod-quiz-review #page {
+    margin-top: 30px;
 }
