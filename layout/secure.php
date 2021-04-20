@@ -24,48 +24,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-// Get the HTML for the settings bits.
-$html = theme_gitam_get_html_for_settings($OUTPUT, $PAGE);
+$blockshtml = $OUTPUT->blocks('side-pre');
+$hasblocks = strpos($blockshtml, 'data-block=') !== false;
+$bodyattributes = $OUTPUT->body_attributes();
 
-echo $OUTPUT->doctype() ?>
-<html <?php echo $OUTPUT->htmlattributes(); ?>>
-<head>
-    <title><?php echo $OUTPUT->page_title(); ?></title>
-    <link rel="shortcut icon" href="<?php echo $OUTPUT->favicon(); ?>" />
-    <?php echo $OUTPUT->standard_head_html() ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+$templatecontext = [
+    
+    'output' => $OUTPUT,
+    'bodyattributes' => $bodyattributes,
+    'sidepreblocks' => $blockshtml,
+    'hasblocks' => $hasblocks
+];
 
-<body <?php echo $OUTPUT->body_attributes(); ?>>
-<?php echo $OUTPUT->standard_top_of_body_html() ?>
-
-<header role="banner" class="navbar navbar-fixed-top moodle-has-zindex">
-    <nav role="navigation" class="navbar-inner">
-
-    </nav>
-</header>
-
-<div id="page" class="container">
-
-    <header id="page-header" class="clearfix">
-        <?php echo $html->heading; ?>
-    </header>
-
-    <div id="page-content" class="row">
-        <div id="region-bs-main-and-pre" class="col-md-9">
-            <div class="row">
-                <section id="region-main" class="col-md-8 pull-right">
-                    <?php echo $OUTPUT->main_content(); ?>
-                </section>
-                <?php echo $OUTPUT->blocks('side-pre', 'span4 desktop-first-column'); ?>
-            </div>
-        </div>
-        <?php echo $OUTPUT->blocks('side-post', 'col-md-3'); ?>
-    </div>
-
-    <?php echo $OUTPUT->render_from_template('theme_boost/secure', $templatecontext); ?>
-
-</div>
-</body>
-</html>
+echo $OUTPUT->render_from_template('theme_boost/secure', $templatecontext);
 

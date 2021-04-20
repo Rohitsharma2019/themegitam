@@ -29,7 +29,7 @@ $string['calendar'] = 'Calendar';
 $string['configtitle'] = "gitam Settings";
 $string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot"><img class=img-polaroid src="gitam/pix/screenshot.jpg" /><br/><p></p><h3>Theme Credits</h3><p><h3>Moodle gitam theme</h3><p>This theme is based on the Boost Moodle theme.</p><p>Authors: xyz<br>Contact: registrar@gitam.edu<br>Website: <a href="https://www.gitam.edu/">www.gitam.edu</a><br></p>';
 
-$string['configtitle'] = 'gitam';
+$string['configtitle'] = 'Gitam';
 $string['connectus'] = 'Connect with us';
 $string['contact'] = 'Contact';
 $string['copyright_footer'] = 'Copyright';
